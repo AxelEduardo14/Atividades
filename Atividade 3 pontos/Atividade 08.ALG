@@ -1,19 +1,17 @@
 Algoritmo "semnome"
-// 
-//  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
-// Data atual  : 03/03/2024
+//Crie um programa que solicite a entrada de 10 nÃºmeros pelo usuÃ¡rio, armazenando-os em um vetor,
+//e entÃ£o monte outro vetor com os valores do primeiro multiplicados por 5. 
+// Exiba os valores dos dois vetores na tela, simultaneamente, em duas colunas (um em cada coluna), uma posiÃ§Ã£o por linha
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 numero1 : vetor [0..9] de inteiro
 numero2 : vetor [0..9] de inteiro
 numero: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
      para numero de 0 ate 9 faca
-   escreval("Digite um número:")
+   escreval("Digite um nÃºmero:")
    leia(numero1[numero])
    numero2[numero] <- numero1[numero] * 5
 fimpara
