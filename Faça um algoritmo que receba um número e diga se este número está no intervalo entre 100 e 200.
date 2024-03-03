@@ -1,0 +1,16 @@
+Algoritmo "100_a_200"
+//  Faça um algoritmo que receba um número e diga se este número está no intervalo entre 100 e 200.
+Var
+// Seção de Declarações das variáveis 
+    numero: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+     escreva("Informe um numero:")
+     leia(numero)
+     se (numero>= 100) e (numero<= 200) entao
+     senao
+     escreva("O numero não esta no intervalo de 100 a 200")
+     fimse
+
+Fimalgoritmo
