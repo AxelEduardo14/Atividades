@@ -1,0 +1,26 @@
+Algoritmo "Atividade 06"
+// Faça um algoritmo que receba um número
+e mostre uma mensagem caso este número seja maior que 10.  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 03/03/2024
+Var
+  numero: inteiro
+
+
+Inicio
+// Seção de Comandos
+
+    escreva("Digite um numero")
+    leia(numero)
+    se numero>10 entao
+         escreval("O número é maior que 10")
+         fimse
+
+
+
+
+
+
+
+Fimalgoritmo
