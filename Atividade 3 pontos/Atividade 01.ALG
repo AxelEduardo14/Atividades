@@ -1,0 +1,35 @@
+Algoritmo "impar"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 01/03/2024
+Var
+// Seção de Declarações das variáveis 
+numPar : vetor [0..9] de inteiro
+numImpar : vetor [0..9] de inteiro
+num, cont : inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+    para cont de 0 ate 9 faca
+   escreval("Digite um número:")
+   leia(num)
+   se (num % 2 = 0 ) entao
+      numPar[cont] <- num
+   senao
+      numImpar[cont] <- num
+   fimse
+fimpara
+escreval()
+escreval("Resultados:")
+escreval("Numeros Pares:")
+para cont de 0 ate 9 faca
+   escreval(numPar[cont])
+fimpara
+escreval()
+escreval("Numeros Ímpares:")
+para cont de 0 ate 9 faca
+   escreval(numImpar[cont])
+fimpara
+Fimalgoritmo

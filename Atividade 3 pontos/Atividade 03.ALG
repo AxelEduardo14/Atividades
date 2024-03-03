@@ -1,0 +1,47 @@
+Algoritmo "semnome"
+
+Var
+ numPar : vetor [0..5] de inteiro
+numImpar : vetor [0..5] de inteiro
+num, cont : inteiro
+Inicio
+   para cont de 0 ate 5 faca
+   escreval("Digite um número:")
+   leia(num)
+   enquanto (num = 0) faca
+      escreval("Zero é número inválido. Digite outro número:")
+      leia(num)
+   fimenquanto
+   se (num % 2 = 0 ) entao
+      numPar[cont] <- num
+   senao
+      numImpar[cont] <- num
+   fimse
+fimpara
+escreval()
+escreval("Resultados:")
+escreval("Quantidade de números Pares:")
+para cont de 0 ate 5 faca
+   se (numPar[cont] <> 0) entao
+      escreval(numPar[cont])
+   fimse
+fimpara
+escreval()
+escreval("Quantidade de números Ímpares:")
+para cont de 0 ate 5 faca
+   se (numImpar[cont] <> 0) entao
+      escreval(numImpar[cont])
+   fimse
+fimpara
+
+
+
+
+
+
+
+
+
+
+
+Fimalgoritmo
