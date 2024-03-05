@@ -22,12 +22,12 @@ fimse
 fimpara
       escreval()
       escreval("Resultados:")
-      escreval("Numeros Pares:")
+      escreval("Array de Pares:")
 para cont de 0 ate 9 faca
       escreval(numPar[cont])
 fimpara
       escreval()
-      escreval("Numeros Ímpares:")
+      escreval("Array de Ímpares:")
       para cont de 0 ate 9 faca
       escreval(numImpar[cont])
 fimpara
