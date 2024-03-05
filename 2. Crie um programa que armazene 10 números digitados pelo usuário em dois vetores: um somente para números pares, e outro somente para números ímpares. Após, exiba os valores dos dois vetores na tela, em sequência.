@@ -9,7 +9,6 @@ Var
 numPar : vetor [0..9] de inteiro
 numImpar : vetor [0..9] de inteiro
 num, cont : inteiro
-
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
     para cont de 0 ate 9 faca
